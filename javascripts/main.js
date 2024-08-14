@@ -36,7 +36,7 @@ function getDarkModeValueFromLS(){
 }
 
 function setDarkModeValueFromLS(value) {
-  // value: dark, light
+  value: dark, light
   if (!window.localStorage) return;
   window.localStorage.setItem("mp--color-scheme",value)
 
